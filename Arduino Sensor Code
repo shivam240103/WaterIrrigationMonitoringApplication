@@ -1,0 +1,52 @@
+float temp, hum;
+int soil, tempp;
+#include <DHT.h>;
+
+#define DHTPIN 13
+#define DHTTYPE DHT11
+DHT dht(DHTPIN, DHTTYPE);
+
+void setup() {
+delay(500);
+Serial.begin(9600);
+dht.begin();
+
+
+
+
+}
+
+void loop() {
+  delay(1000);
+  hum = dht.readHumidity();
+  temp= dht.readTemperature();  
+
+  if (isnan(hum) || isnan(temp) ) {
+  }else{
+    Serial.print("Temp:\t");
+    Serial.print(temp);
+    Serial.println("°C"); 
+    Serial.print("Humi:\t");
+    Serial.print(hum);
+    Serial.println("%");
+    
+    
+    
+  }
+
+  tempp = analogRead(A0);
+
+  
+  soil = map(tempp,770,670,0,100);
+  if (soil > 100){
+    soil = 100;
+  }
+  if (soil < 0){
+    soil = 0;
+  }
+  Serial.print("Soil\t:");
+  Serial.print(soil);
+  Serial.println("%");
+     
+
+}
