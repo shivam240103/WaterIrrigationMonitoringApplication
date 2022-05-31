@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "1064614606634",
+    "firebase_url": "https://water-irrigation-monitor-app-default-rtdb.firebaseio.com",
+    "project_id": "water-irrigation-monitor-app",
+    "storage_bucket": "water-irrigation-monitor-app.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1064614606634:android:a0048c7782de07870e1053",
+        "android_client_info": {
+          "package_name": "com.shivam.waterirrigationmonitoringapplication"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1064614606634-es22noab2qdck0h0admdigl4gl0ftp5o.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.shivam.waterirrigationmonitoringapplication",
+            "certificate_hash": "eb8e9f0d82cedd391de3ed89c4c79237ba3e8db8"
+          }
+        },
+        {
+          "client_id": "1064614606634-li4dl0gv8ca081sp9ubflfbao6k4har4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCvElEiNrekxnuES3I0QmtaDyy_oTcHicQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1064614606634-li4dl0gv8ca081sp9ubflfbao6k4har4.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
